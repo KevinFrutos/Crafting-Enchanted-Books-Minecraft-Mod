@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ASA"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "A": {
+      "item": "minecraft:arrow"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:projectile_protection",
+          "lvl": 4
+        }
+      ]
+    }
+  }
+}

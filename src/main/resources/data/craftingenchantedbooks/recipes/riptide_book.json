@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SDS",
+    "SBS",
+    "SDS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "S": {
+      "item": "minecraft:scute"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:riptide",
+          "lvl": 3
+        }
+      ]
+    }
+  }
+}

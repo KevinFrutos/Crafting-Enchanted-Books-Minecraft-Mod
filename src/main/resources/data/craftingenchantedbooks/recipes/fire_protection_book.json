@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IBI",
+    "ISI"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:fire_protection",
+          "lvl": 4
+        }
+      ]
+    }
+  }
+}

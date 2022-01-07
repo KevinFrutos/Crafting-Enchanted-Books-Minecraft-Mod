@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TBT",
+    "TIT"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "T": {
+      "item": "minecraft:tropical_fish"
+    },
+    "I": {
+      "item": "minecraft:iron_boots"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:depth_strider",
+          "lvl": 3
+        }
+      ]
+    }
+  }
+}

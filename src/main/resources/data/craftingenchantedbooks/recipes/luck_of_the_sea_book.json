@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IBI",
+    "IFI"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "F": {
+      "item": "minecraft:fishing_rod"
+    },
+    "I": {
+      "item": "minecraft:iron_trapdoor"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:luck_of_the_sea",
+          "lvl": 3
+        }
+      ]
+    }
+  }
+}

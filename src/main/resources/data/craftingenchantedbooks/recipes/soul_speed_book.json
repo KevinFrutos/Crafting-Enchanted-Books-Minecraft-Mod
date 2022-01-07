@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ATA",
+    "TBT",
+    "ATA"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "A": {
+      "item": "minecraft:soul_sand"
+    },
+    "T": {
+      "item": "minecraft:soul_soil"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:soul_speed",
+          "lvl": 3
+        }
+      ]
+    }
+  }
+}

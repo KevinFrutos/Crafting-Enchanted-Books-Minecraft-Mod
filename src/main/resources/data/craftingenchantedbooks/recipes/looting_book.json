@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RSH",
+    "GBG",
+    "HSR"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "S": {
+      "item": "minecraft:spider_eye"
+    },
+    "H": {
+      "item": "minecraft:bone"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:looting",
+          "lvl": 3
+        }
+      ]
+    }
+  }
+}

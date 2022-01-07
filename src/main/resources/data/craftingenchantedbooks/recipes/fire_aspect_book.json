@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FMF",
+    "FBF",
+    "FIF"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "I": {
+      "item": "minecraft:iron_sword"
+    },
+    "M": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:fire_aspect",
+          "lvl": 2
+        }
+      ]
+    }
+  }
+}

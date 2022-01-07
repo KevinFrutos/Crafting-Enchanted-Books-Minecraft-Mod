@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HRH",
+    "RBR",
+    "HRH"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "H": {
+      "item": "minecraft:bone"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "type": "minecraft:item_nbt",
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:smite",
+          "lvl": 5
+        }
+      ]
+    }
+  }
+}
